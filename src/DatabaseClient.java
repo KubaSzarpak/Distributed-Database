@@ -1,21 +1,3 @@
-package DatabaseNode.DatabaseClient;/* -----------------------------------------------------------------
- * Klasa klienta dla projektu "Rozproszona baza danych".
- * The client class for the "A distributed database" project.
- *
- * Kompilacja/Compilation:
- * javac DatabaseClient.java
- * Uruchomienie/Execution:
- * java DatabaseClient -gateway <adress>:<TCP port number> -operation <operation with parameters>
- *
- * Klient zakłada, że podane parametry są poprawne oraz, że jest ich odpowiednia
- * liczba. Nie jest sprawdzana poprawność wywołania.
- *
- * The client assumes, that the parameters are correct and there are enough
- * of them. Their correctness is not checked.
- *
- * SKJ, 2022/23, Łukasz Maśko
- */
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
